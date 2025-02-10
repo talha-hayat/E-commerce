@@ -158,6 +158,7 @@ function clearfield() {
     priceinp.value = ""
     imginp.value = ""
     listproduct.innerHTML = "Add product"
+    imginp.style.visibility = 'visible';
 }
 
 
