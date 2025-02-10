@@ -153,12 +153,13 @@ async function UpdateProduct(Id) {
 }
 
 function clearfield() {
+    imginp.style.visibility = 'visible';
     titleinp.value = ""
     descinp.value = ""
     priceinp.value = ""
     imginp.value = ""
     listproduct.innerHTML = "Add product"
-    imginp.style.visibility = 'visible';
+    document.getElementById('img-labl').innerHTML = "Image";
 }
 
 
